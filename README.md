@@ -16,3 +16,9 @@ volume
 web application connection to database
 Domain name
 port
+
+
+---UPDATE---
+exoframe.json added to git as config files are free of postgres password
+Used Exoframe to store the secret in its secrets database. 
+It will use it when it sees the placeholder "@alangardiner-postgres-password"
